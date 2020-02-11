@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-11T11:01:13.954Z",
+        "line": 15,
+        "name": "",
+        "description": "",
+        "id": "life-of-it-tester;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am a \"good\" tester",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"good\"",
+                  "offset": 7
+                }
+              ],
+              "location": "scenariooutlin.cls6.I_am_a_good_tester(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I go to work",
+            "match": {
+              "location": "scenariooutlin.cls6.I_go_to_work()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T11:01:14.311Z",
+        "line": 16,
+        "name": "",
+        "description": "",
+        "id": "life-of-it-tester;;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am a \"bad\" tester",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bad\"",
+                  "offset": 7
+                }
+              ],
+              "location": "scenariooutlin.cls6.I_am_a_good_tester(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I go to work",
+            "match": {
+              "location": "scenariooutlin.cls6.I_go_to_work()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Life of IT Tester",
+    "description": "In order to get good salary\nAs a IT guy\nI want to keep my boss happy",
+    "id": "life-of-it-tester",
+    "keyword": "Feature",
+    "uri": "classpath:scenariooutlin/cucu6.feature",
+    "tags": []
+  }
+]
